@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:padding="10dip"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginLeft="10dip"
+        android:id="@+id/ivSwitchIcon"
+        android:scaleType="fitXY"
+        android:layout_width="24dp"
+        android:layout_height="24dp" />
+
+    <TextView
+        android:id="@+id/tvSwitchTitle"
+        android:textSize="20sp"
+        android:textColor="#020202"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
